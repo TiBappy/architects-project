@@ -1,3 +1,116 @@
-body {
-    background-color:red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Website Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-fonts {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Shared Style */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.display-flex {
+    display: flex;
+}
+.btn-primary {
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Header Area */
+#header {
+    background-color: rgba(255, 144, 14, 0.1);
+    
+}
+.nav-container {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    padding: 24px 0;
+}
+.nav-links {
+    list-style: none;
+}
+.menu {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 26px;
+    color: #424242;
+}
+/* banner area */
+.banner-top {
+    text-align: center;
+    max-width: 860px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.banner-top h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.banner-top p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 24px;
+    line-height: 26px;
+}
+.banner-bottom img {
+    width: 100%;
+}
+/* Gallery Section */
+.gallery-container {
+    margin-top: 84px;
+    display: flex;
+    align-items: center;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.gallery-content {
+    margin-left: 64px;
+}
+.gallery-content  h3 {
+    margin-bottom: 24px;
+}
+.gallery-content p {
+    color: #727272;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+#quick {
+    color: #3a3333;
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+#of-our {
+    color: #131313;
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+#feature {
+    color: #FF900E;
+    font-size: 2.1rem;
+    font-weight: 700;
 }
